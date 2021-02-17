@@ -80,3 +80,37 @@ Características:
 |Se puede transportar|El proveedor suele desplazarse|
 |Es importante para el coste el lugar de la instalación|El lugar de la instalación importa para el contacto con el cliente|
 |Son fáciles de automatizar|Son difíciles de automatizar|
+
+!!! note "Producto vs Servicio"
+    Hay ocasiones en las que es complicado separar el precio del producto del precio del servicio. Es el caso de los restaurantes.
+
+||Estratégicas<br>***a largo plazo***|Tácticas<br>***corto y medio largo***|
+|:--:|:--:|:--:|
+|{>>Producto / servicio<<}|
+|Proceso|Selección del tipo de proceso<br>Elección de la tecnlogía|Mantenimiento del equipo<br>Análisis del flujo del proceso|
+|Capacidad|Tamaño & localización<br>Distribución en planta|Programación de las actividades<br>Subcontratación / Horas extra|
+|Inventario|Tamaño del inventario<br>Diseño del sistema de control|Fecha de pedido<br>Volumen de pedido|
+|Recursos humanos|Diseño de puestos y tareas<br>Condiciones laborales|Fijación de estándares de trabajo<br>Políticas de personal|
+|Calidad|Organización de la calidad<br>Medidas de calidad|Control de calidad<br>Muestreos de inspección|
+
+### Análisis estratégico externo
+
+Retos del entorno competitivo actual:
+
+- **Competencia globalizada:** consecuencia del menor coste de comunicación, transporte y barreras de entrada. Alianzas estratégicas.
+- Prioridades competitivas y su evolución, no solo coste y calidad. **Se evalúan otras cosas, como la rapidez de entrega**.
+- **Responsabilidad social de las empresas**: utilizan aspectos ecológicos y éticos para **mejorar su marca**.
+- **Importancia de los servicios**: sobre todo en las **economías desarrolladas**. Ejemplo: mi empresa **depende** de otra empresa de transporte
+- **Nuevas tecnologías**: los clientes tienen más información. Gracias a la tecnología se **automatizan numerosos procesos**.
+- **Flexibilidad**: los clientes tienen **exigencias muy diversas**.
+- **Transformación digital**: hay **sectores** que han experimentado la **entrada de competidores digitales que han cambiado el sector**. Ejemplos: en el sector turístico, airbnb no tiene ningún hotel en propiedad / en el sector financiero EBN no tiene oficinas físicas. Otros ejemplos: periódicos, música, telefonía, editorial, fastfood, etc.
+
+!!! tip "Alianza estratégica"
+    Dos empresas se unen para fabricar un producto.
+
+    Ejemplo: `Nestea` → `Cocacola` + `Nestlé`
+
+Aunque la eficiencia (productividad) debe servir de guía, existen otros objetivos de la dirección de operaciones:
+
+- Coste: aprovechar mejor los recursos existentes y mejorar la tecnología.
+- Calidad:
