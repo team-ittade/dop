@@ -10,6 +10,7 @@ theme:
 nav:
   - Evaluación: index.md
   - Tema 1: tema-1.md
+  - Parcial 1: notas-parcial-1.md
 
 extra_css:
     - css/colors.css
