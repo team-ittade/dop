@@ -3,7 +3,7 @@ site_name: DOP
 theme:
   name: material
   palette:
-    primary: pink
+    primary: teal
   features:
     - navigation.instant
 
