@@ -1,0 +1,618 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.5">
+    
+    
+      
+        <title>Tema 1 - DOP</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.77f3fd56.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.7fa14f5b.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#e92063">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../css/colors.css">
+    
+      <link rel="stylesheet" href="../css/custom.css">
+    
+      <link rel="stylesheet" href="../css/termynal.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="pink" data-md-color-accent="">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#tema-1-introduccion-al-subsistema-de-operaciones" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="DOP" class="md-header__button md-logo" aria-label="DOP">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DOP
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Tema 1
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="md-header__options">
+      
+    </div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/team-ittade/dop/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    team-ittade/dop
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="DOP" class="md-nav__button md-logo" aria-label="DOP">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    DOP
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/team-ittade/dop/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    team-ittade/dop
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Evaluación
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Tema 1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Tema 1
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#subsistema-de-operaciones" class="md-nav__link">
+    Subsistema de operaciones
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concepto-de-produccion-y-direccion-de-operaciones" class="md-nav__link">
+    Concepto de producción y dirección de operaciones
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#la-direccion-de-operaciones-en-los-servicios" class="md-nav__link">
+    La dirección de operaciones en los servicios
+  </a>
+  
+    <nav class="md-nav" aria-label="La dirección de operaciones en los servicios">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#analisis-estrategico-externo" class="md-nav__link">
+    Análisis estratégico externo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notas-parcial-1.md" class="md-nav__link">
+        Parcial 1
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#subsistema-de-operaciones" class="md-nav__link">
+    Subsistema de operaciones
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concepto-de-produccion-y-direccion-de-operaciones" class="md-nav__link">
+    Concepto de producción y dirección de operaciones
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#la-direccion-de-operaciones-en-los-servicios" class="md-nav__link">
+    La dirección de operaciones en los servicios
+  </a>
+  
+    <nav class="md-nav" aria-label="La dirección de operaciones en los servicios">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#analisis-estrategico-externo" class="md-nav__link">
+    Análisis estratégico externo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/team-ittade/dop/edit/master/docs/tema-1.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="tema-1-introduccion-al-subsistema-de-operaciones">Tema 1: Introducción al subsistema de operaciones<a class="headerlink" href="#tema-1-introduccion-al-subsistema-de-operaciones" title="Permanent link">🔗</a></h1>
+<p>La empresa es un sistema dinámico, abierto y complejo, que transforma <em>inputs</em> en <em>outputs</em>. Consta de 5 subsistemas:</p>
+<ol>
+<li>Recursos Humanos</li>
+<li>Financiero</li>
+<li>Marketing</li>
+<li><strong>Operaciones</strong></li>
+<li>I+D+i</li>
+</ol>
+<p>La empresa debe tener unos objetivos alcanzables y una estructura diseñada.</p>
+<p>Cada subsistema tiene un conjunto de elementos discretos dinámicamente relacionados que presentan tres características (globalidad, homeostasis y finalidad).</p>
+<div class="admonition note">
+<p class="admonition-title">Omeostasis</p>
+<p>Omeostasis: el subsistema es capaz de autoregularse.</p>
+</div>
+<h2 id="subsistema-de-operaciones">Subsistema de operaciones<a class="headerlink" href="#subsistema-de-operaciones" title="Permanent link">🔗</a></h2>
+<p>Misión: obtener bienes y servicios que satisfacerán las necesidades detectadas por el <ins>subsistema de marketing</ins> y generadas por el <ins>departamento de I+D+i</ins>.</p>
+<p>El subsistema de operaciones gestiona <strong>recursos</strong>, <strong>personas</strong> y <strong>procesos</strong>.</p>
+<p>Dirección de operaciones: gestión del sistema de operaciones que se encarga de <ins class="critic"> transformar los recursos productivos de una organización en productos y servicios finales. </ins></p>
+<p>Para conseguir los objetivos fijados se debe seguir una serie de fases:</p>
+<ol>
+<li><strong>Diseño del subsistema:</strong> concretar objetivos (<em>¿Qué producto vamos a vender?</em>). Es una decisión a <code>largo plazo</code>, a corto no puedo cambiar el producto que vendo.</li>
+<li><strong>Planificaciones de la producción:</strong> decisión a <code>medio plazo</code>. No se puede cambiar de un día para otro, pero se puede. Definir la <ins class="critic">localización</ins> (donde va a estar la fábrica o tienda) y el <ins class="critic">tamaño</ins>.</li>
+<li><strong>Programación de la producción:</strong> decisión a <code>corto plazo</code>. Se refiere a la secuencia de la producción y a la capacidad de producción.</li>
+<li><strong>Ejecución del proceso productivo:</strong> decisión a <code>corto plazo</code>.</li>
+<li><strong>Gestión de inventarios:</strong> ocurre durante todo el ejercicio. Todos los inventarios (materias primas, productos en curso y productos terminados).</li>
+<li><strong>Control:</strong> controlar que todas las etapas van bien. Buscar errores y sus soluciones.</li>
+</ol>
+<h2 id="concepto-de-produccion-y-direccion-de-operaciones">Concepto de producción y dirección de operaciones<a class="headerlink" href="#concepto-de-produccion-y-direccion-de-operaciones" title="Permanent link">🔗</a></h2>
+<p>Definiciones:</p>
+<ul>
+<li><strong>Técnica:</strong> proceso de transformación de unos inputs en outputs.</li>
+<li><strong>Económica:</strong> proceso encaminado a la obtención de unos bienes y servicios capaces de satisfacer necesidades humanads.</li>
+</ul>
+<p>Producción → Utilidad → Valor → Precio → Beneficio → Supervivencia</p>
+<p>La producción permite <strong>incrementar la utilidad</strong> de diferentes formas:</p>
+<ol>
+<li><strong>Forma:</strong> características técnicas del producto. Sus cualidades.</li>
+<li><strong>Tiempo:</strong> el cliente debe obtener el producto en el momento justo en el que lo necesite.</li>
+<li><strong>Espacio:</strong> el cliente debe obtener el producto en el lugar en el que lo necesite.</li>
+<li><strong>Información:</strong> el cliente debe saber que el producto existe.</li>
+<li><strong>Propiedad:</strong> transferir un bien o experimentar un servicio.</li>
+</ol>
+<div class="admonition example">
+<p class="admonition-title">Utilidad</p>
+<ul>
+<li>Leche Pascual nos proporciona una utilidad de <code>forma</code> - no podemos ir a beber leche de una vaca, nos lo proprciona. Si no existiera no podría satisfacer mi necesidad de beber leche</li>
+<li>Wallapop: <code>información</code> - ponen en contacto a vendedores con compradores.</li>
+<li>Seur: <code>tiempo</code> - nos ahorra tiempo por los transformes / <code>lugar</code> - nos lleva el paquete donde queremos</li>
+<li>Trivago: <code>información</code> - compara precios, pero no tiene hoteles.</li>
+<li>Arriaga Asociados: <code>propiedad</code> - experimentas un servicio, el tener un abogado. Te defienden.</li>
+<li>Amazon: <code>información</code> - te muestra todos los productos que puedes comprar / <code>tiempo</code> - te ahorran tiempo / <code>espacio</code> - transportan el producto / <code>forma</code> - amazon te vende productos que son propios de amazon, por lo que producen algo</li>
+<li>Un balneario: <code>espacio</code> - tienes que ir allí para disfrutarlo / <code>propiedad</code> - experimentas el servicio</li>
+</ul>
+</div>
+<h2 id="la-direccion-de-operaciones-en-los-servicios">La dirección de operaciones en los servicios<a class="headerlink" href="#la-direccion-de-operaciones-en-los-servicios" title="Permanent link">🔗</a></h2>
+<p>Características:</p>
+<ul>
+<li><strong>Heterogeneidad</strong>: los servicios suelen ser únicos</li>
+<li>Normalmente son <strong>intangibles</strong></li>
+<li><strong>No se puede probar</strong> antes de consumirlo</li>
+<li>Se suelen producir y consumir a la vez → <strong>no se pueden almacenar</strong></li>
+<li>Suponen una gran interacción con el cliente → <strong>son difíciles de estandarizar y automatizar</strong></li>
+<li><strong>No tienen propiedad</strong>. Sólo tenemos un derecho de uso.</li>
+<li>Tienen <strong>carácter no duradero y no retornable</strong>.</li>
+<li><ins>Incertidumbre sobre las necesidades del cliente</ins></li>
+<li>Suelen darse de <ins>forma dispersa</ins></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Atributos de los bienes (tangible)</th>
+<th>Atributos de los servicios (intangible)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>El producto puede ser revendido</td>
+<td>No es habitual revender un servicio</td>
+</tr>
+<tr>
+<td>Venta y producción son distintas, el producto puede guardarse en el inventario</td>
+<td>La venta es parte del servicio no se puede guardar en un inventario</td>
+</tr>
+<tr>
+<td>Se puede medir su calidad</td>
+<td>Es difícil de medir su calidad</td>
+</tr>
+<tr>
+<td>Se puede transportar</td>
+<td>El proveedor suele desplazarse</td>
+</tr>
+<tr>
+<td>Es importante para el coste el lugar de la instalación</td>
+<td>El lugar de la instalación importa para el contacto con el cliente</td>
+</tr>
+<tr>
+<td>Son fáciles de automatizar</td>
+<td>Son difíciles de automatizar</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Producto vs Servicio</p>
+<p>Hay ocasiones en las que es complicado separar el precio del producto del precio del servicio. Es el caso de los restaurantes.</p>
+</div>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center">Estratégicas<br><strong><em>a largo plazo</em></strong></th>
+<th align="center">Tácticas<br><strong><em>corto y medio largo</em></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><span class="critic comment">Producto / servicio</span></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Proceso</td>
+<td align="center">Selección del tipo de proceso<br>Elección de la tecnlogía</td>
+<td align="center">Mantenimiento del equipo<br>Análisis del flujo del proceso</td>
+</tr>
+<tr>
+<td align="center">Capacidad</td>
+<td align="center">Tamaño &amp; localización<br>Distribución en planta</td>
+<td align="center">Programación de las actividades<br>Subcontratación / Horas extra</td>
+</tr>
+<tr>
+<td align="center">Inventario</td>
+<td align="center">Tamaño del inventario<br>Diseño del sistema de control</td>
+<td align="center">Fecha de pedido<br>Volumen de pedido</td>
+</tr>
+<tr>
+<td align="center">Recursos humanos</td>
+<td align="center">Diseño de puestos y tareas<br>Condiciones laborales</td>
+<td align="center">Fijación de estándares de trabajo<br>Políticas de personal</td>
+</tr>
+<tr>
+<td align="center">Calidad</td>
+<td align="center">Organización de la calidad<br>Medidas de calidad</td>
+<td align="center">Control de calidad<br>Muestreos de inspección</td>
+</tr>
+</tbody>
+</table>
+<h3 id="analisis-estrategico-externo">Análisis estratégico externo<a class="headerlink" href="#analisis-estrategico-externo" title="Permanent link">🔗</a></h3>
+<p>Retos del entorno competitivo actual:</p>
+<ul>
+<li><strong>Competencia globalizada:</strong> consecuencia del menor coste de comunicación, transporte y barreras de entrada. Alianzas estratégicas.</li>
+<li>Prioridades competitivas y su evolución, no solo coste y calidad. <strong>Se evalúan otras cosas, como la rapidez de entrega</strong>.</li>
+<li><strong>Responsabilidad social de las empresas</strong>: utilizan aspectos ecológicos y éticos para <strong>mejorar su marca</strong>.</li>
+<li><strong>Importancia de los servicios</strong>: sobre todo en las <strong>economías desarrolladas</strong>. Ejemplo: mi empresa <strong>depende</strong> de otra empresa de transporte</li>
+<li><strong>Nuevas tecnologías</strong>: los clientes tienen más información. Gracias a la tecnología se <strong>automatizan numerosos procesos</strong>.</li>
+<li><strong>Flexibilidad</strong>: los clientes tienen <strong>exigencias muy diversas</strong>.</li>
+<li><strong>Transformación digital</strong>: hay <strong>sectores</strong> que han experimentado la <strong>entrada de competidores digitales que han cambiado el sector</strong>. Ejemplos: en el sector turístico, airbnb no tiene ningún hotel en propiedad / en el sector financiero EBN no tiene oficinas físicas. Otros ejemplos: periódicos, música, telefonía, editorial, fastfood, etc.</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Alianza estratégica</p>
+<p>Dos empresas se unen para fabricar un producto.</p>
+<p>Ejemplo: <code>Nestea</code> → <code>Cocacola</code> + <code>Nestlé</code></p>
+</div>
+<p>Aunque la eficiencia (productividad) debe servir de guía, existen otros objetivos de la dirección de operaciones:</p>
+<ul>
+<li>Coste: aprovechar mejor los recursos existentes y mejorar la tecnología.</li>
+<li>Calidad:</li>
+</ul>
+                
+                  
+                    
+
+<hr>
+<div class="md-source-date">
+  <small>
+    
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 17, 2021</span>
+    
+  </small>
+</div>
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href=".." class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Evaluación
+            </div>
+          </div>
+        </a>
+      
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../assets/javascripts/workers/search.fb4a9340.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.5cf3e710.min.js"></script>
+      
+        <script src="../js/config.js"></script>
+      
+        <script src="../js/custom.js"></script>
+      
+        <script src="../js/links.js"></script>
+      
+        <script src="../js/tables.js"></script>
+      
+        <script src="../js/termynal.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://unpkg.com/mermaid@8.4.6/dist/mermaid.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
+      
+    
+  </body>
+</html>
