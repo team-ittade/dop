@@ -12,6 +12,9 @@ nav:
   - Tema 1: tema-1.md
   - Parcial 1: notas-parcial-1.md
 
+repo_name: team-ittade/dop
+repo_url: https://github.com/team-ittade/dop
+
 extra_css:
     - css/colors.css
     - css/custom.css
@@ -57,3 +60,8 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins:
+  - git-revision-date-localized:
+      type: date
+      fallback_to_build_date: true
