@@ -2,7 +2,6 @@
 
 - Profesor 1: Héctor Pérez Fernández (hector.perez.fernandez@alumnos.uva.es)
 - Profesor 2: Víctor Martín Pérez (victormanuel.martin@uva.es)
-- [Link webex](https://campusvirtual.uva.es/mod/url/view.php?id=1003555){: .elink}
 - [Guía docente](https://alojamientos.uva.es/guia_docente/uploads/2020/466/45405/1/Documento.pdf){: .elink}
 - [Campus virtual](https://campusvirtual.uva.es/course/view.php?id=31852){: .elink}
 
